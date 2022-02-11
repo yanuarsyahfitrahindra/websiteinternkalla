@@ -1,0 +1,93 @@
+body{
+    background-color: #0C783E;
+}
+
+div.main {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    margin-top: -11em;
+    margin-left: -15em;
+    border-radius: 20px;
+    background-color: white;
+}
+
+div.logo {
+    padding-left: 140px;
+    padding-top: 20px;
+}
+
+div.form {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #0C783E;
+    padding-left: 75px;
+    padding-bottom: 15px ;
+}
+
+div.logg {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 125px;
+    color: #0C783E;
+}
+
+.logoku {
+    padding: 15px 65px;
+    width: 350px;
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: 200px 100px;
+}
+
+.button {
+    background-color: #D09B2C;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+input[type=submit] {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 8px ;
+    width: 80%;
+    border-style: none;
+    color: #E3E3E3;
+    background-color: #D09B2C;
+    border-radius: 5px;
+    pointer-events: auto;
+}
+
+input[type=text] {
+    padding: 8px;
+    width: 75%;
+    border-radius: 7px;
+    border-style: none;
+    background-color: #E3E3E3;
+}
+
+input[type=password] {
+    padding: 8px;
+    width: 75%;
+    border-radius: 7px;
+    border-style: none;
+    background-color: #E3E3E3;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+input[type=date] {
+    width: 205px;
+}
+
+

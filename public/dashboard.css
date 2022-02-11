@@ -1,0 +1,41 @@
+body{
+    background-color: #0C783E;
+}
+
+div.main {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    margin-top: -11em;
+    margin-left: -15em;
+    border-radius: 20px;
+    background-color: white;
+}
+
+div.logo {
+    padding-left: 140px;
+    padding-top: 20px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+  }
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+}
+
+.text-xs {
+    font-size: .9rem;
+}
